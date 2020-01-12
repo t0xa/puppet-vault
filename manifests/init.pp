@@ -76,6 +76,7 @@ class vault (
   $download_url                        = $::vault::params::download_url,
   $download_url_base                   = $::vault::params::download_url_base,
   $download_extension                  = $::vault::params::download_extension,
+  $proxy_server                        = $::vault::params::proxy_server,
   $service_name                        = $::vault::params::service_name,
   $service_enable                      = $::vault::params::service_enable,
   $service_ensure                      = $::vault::params::service_ensure,

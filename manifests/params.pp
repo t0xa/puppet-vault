@@ -13,6 +13,7 @@ class vault::params {
   $download_url       = undef
   $download_url_base  = 'https://releases.hashicorp.com/vault/'
   $download_extension = 'zip'
+  $proxy_server       = undef
   $version            = '1.2.2'
   $service_name       = 'vault'
   $num_procs          = $facts['processorcount']
